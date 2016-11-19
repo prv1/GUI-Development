@@ -1,0 +1,298 @@
+/* Cascading Style Sheet for Template Central
+   Copyright (C) 2006 Template Central */
+
+/*
+  GENERAL  -------------------------------------------------------------------
+*/
+
+
+html, body, ul, ol, li, p, form, fieldset {
+margin: 0;
+padding: 0;
+border: 0;
+}
+#homebanner {
+	background-image: url(images/hm_banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 187px;
+}
+
+#bottom_content p,
+#bottom_content img
+{ margin-bottom: 10px; }
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100.01%;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	background-image: url(images/bg.jpg);
+}
+p {
+	font-size: 11px;
+}
+
+a:link, a:visited, a:active {color: #7B3937; text-decoration: none;}
+a:hover { color: #72685E; text-decoration: underline;}
+
+#wrapper {
+	width: 780px;
+	margin:auto;
+	text-align:left;
+	background-image: url(images/content.jpg);
+	background-repeat: repeat-y;
+	background-color: #FFFFFF;
+		}
+
+/*
+  MAIN MENU AND TOP BANNER -------------------------------------------------------------------
+*/
+
+
+#banner {
+height: 82px;
+background-image: url(images/header.jpg);
+background-repeat: no-repeat;
+}
+#logo {
+	font-size: 22px;
+	color: #000000;
+	text-align: left;
+	line-height: 70px;
+	margin-left: 40px;
+	margin-right: 0px;
+	float: inherit;
+	width: 500px;
+	padding-top: 8px;
+}
+#nav-main {
+	width: 780px;
+	height: 51px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	position: relative;
+	background-image: url(images/nav.jpg);
+}
+
+#nav-main ul {
+list-style: none;
+margin: 0;
+padding: 0;
+width: 730px;
+overflow: hidden;
+position: absolute;
+bottom: 12px;
+left: 32px;
+}
+
+#nav-main li, #nav-meta li {
+display: inline;
+}
+
+#nav-main a {
+	display: block;
+	float: left;
+	padding: 7px 10px 1px 10px;
+	margin-left: 0px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 80%;
+	color: #FFFFFF;
+}
+
+#nav-main a:hover {
+	color: #E6DCB7;
+}
+
+#nav-main a.current {
+	color: #E6DCB7;
+}
+
+/*
+  SUBMENU -------------------------------------------------------------------
+*/
+
+#left {
+	width: 178px;
+	float: left;
+	margin-left: 12px;
+	display: inline;
+	margin-top: 0px;
+	background-image: url(images/smenu_frame.jpg);
+	height: 198px;
+	background-repeat: no-repeat;
+}
+	
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-indent: 10px;
+	margin-top: 0px;
+	font-size: 11px;
+	margin-left: 20px;
+}
+
+#nav a {
+	display: block;
+	width: 165px;
+	height: 19px;
+	line-height: 17px;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+#nav a:link, #nav a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: #A48848;
+	text-decoration: none;
+}
+
+#nav li a#current {
+	color: #A48848;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*
+  CONTENT AREA -------------------------------------------------------------------
+*/
+		#container
+		{
+	margin: auto;
+	width: 50px;
+	margin:auto;
+	background-image: url(images/content.jpg);
+	margin-bottom: 20px;
+		}
+
+#bannershadow {
+	background-image: url(images/banner_shadow.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 30px;
+	margin: auto;
+}
+
+		#content
+		{
+	margin: 0px 0px 15px 60px;
+	float: left;
+	width: 480px;
+		}
+
+#content p
+{
+	margin-bottom: 10px;
+	margin-top: 0px;
+	line-height: 18px;
+	font-size: 12px;
+}
+#content .summary
+{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+}
+#content h1{
+	font-size: 16px;
+	color: #473F3D;
+	padding: 0;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+#content h2{
+	font-size: 14px;
+	color: #736461;
+	padding: 0;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+.leftimage{
+float: left;
+margin: 0 10px 20px 0;
+border: 1px solid #000000;
+}
+
+.rightimage{
+float: right;
+margin: 0 0 20px 15px;
+border: 1px solid #000000;
+width: 150px;
+}
+
+.clearit{
+clear: both;
+}
+
+/*
+  FOOTER -------------------------------------------------------------------
+*/
+
+	#footer
+		{
+	clear: both;
+	text-align: center;
+	background-image: url(images/footer.jpg);
+	height: 72px;
+	margin: 0px auto;
+	padding: 15px 0px 0px 0px;
+	background-repeat: no-repeat;
+		}
+#footer p {
+	font-size: 11px;
+	padding-top: 7px;
+}
+
+/*
+  HOME PAGE COLUMNS -------------------------------------------------------------------
+*/
+
+#col1 {
+	width: 195px;
+	float: left;
+	padding-left: 40px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: auto;
+}
+#col2 {
+	width: 204px;
+	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #dbdbdb;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: auto;
+	}
+#col3 {
+	width: 204px;
+	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #dbdbdb;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: auto;
+}
+#col1 h1, #col2 h1, #col3 h1{
+	font-size: 14px;
+	margin-top: 12px;
+	margin-bottom: 0px;
+	color: #594237;
+}

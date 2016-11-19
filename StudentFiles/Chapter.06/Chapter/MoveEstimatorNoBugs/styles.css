@@ -1,0 +1,62 @@
+h1 {font-family: Arial, Helvetica, sans-serif;font-size: 16px;font-style: normal;font-weight: bold;
+	color: #996600;	margin-bottom: -12px;line-height: 16px;}
+.logoname {font-family: Arial, Helvetica, sans-serif;font-size: 16px;font-weight: bold;
+	color: #FFFFFF;}
+h2 {font-family: Arial, Helvetica, sans-serif;font-size: 14px;font-style: normal;font-weight: bold;
+	color: #333333;	line-height: 13px;	margin-bottom: 15px;}
+
+
+a {	color: #855929;	text-decoration: underline;}
+a:visited {  color: #855929; text-decoration: underline}
+a:hover {  color: #CB9456; text-decoration: underline}
+a:active {  color: #855929; text-decoration: underline}
+.menu a:link {  color: #993300; text-decoration: none}
+.txtmenu {font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: bold;
+	color: #993300;	line-height: 24px; background-position: center center;}
+.menu a:visited {  color: #993300; text-decoration: none}
+.menu a:hover {  color: #FFFFFF; text-decoration: none}
+.menu a:active {  color: #993300; text-decoration: none}
+.submenu a:link {  color: #6F4513; text-decoration: none}
+.txtmenusub {font-family: Arial, Helvetica, sans-serif;	font-size: 11px;font-weight: bold;
+	color: #6F4513; line-height: 20px;	background-position: center center;	}
+.submenu a:visited {  color: #6F4513; text-decoration: none}
+.submenu a:hover {  color: #B47020; text-decoration: none}
+.submenu a:active {  color: #6F4513; text-decoration: none}
+
+.promotext {font-family: Arial, Helvetica, sans-serif;font-size: 11px;line-height: 12px;
+	color: #333333;}
+.promoheading {font-family: Arial, Helvetica, sans-serif;font-size: 11px;font-style: normal;font-weight: bold;
+	line-height: 12px;	color: #000000;}
+
+h3 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 30px;font-weight: bold;	color: #333333;
+	margin-top: 0px;	margin-bottom: 0px;}
+p {	font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-style: normal;line-height: 15px;
+	font-weight: normal;color: #333333;}
+.btmmenu {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 7pt;font-style: normal;font-weight: normal;
+	line-height: 13px;color: #333333;}		
+
+	
+.cellbackbannerbody {background-image: url(images/cellback_bodyhead.jpg);background-repeat: no-repeat;
+	background-position: left top;}
+.5pts {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 5pt;
+	font-style: normal;	font-weight: normal;line-height: 5px;}
+body {margin: 0px;	background-image: url(images/pagecolor.gif);background-repeat: repeat;}
+.cellbackmenuover {	background-image: url(images/navbut_over.jpg);background-repeat: no-repeat;
+	background-position: left top;width: 119px;	height: 27px;}
+.cellbackmenuunder {background-image: url(images/navbut.jpg);background-repeat: no-repeat;background-position: left top;
+	height: 27px;width: 119px;}
+.cellbacksubmenu {background-image: url(images/cellback_sidemenu.jpg);	background-repeat: no-repeat;
+	background-position: left top;width: 173px;	height: 209px;}
+.cellbacknewsheadline {	background-image: url(images/cellback_headline.jpg);	background-repeat: no-repeat;
+	background-position: left top;	line-height: 30px;}
+.cellbackspicrght {	background-image: url(images/cellback_spicright.jpg);
+	background-repeat: no-repeat;	background-position: right top;}
+.cellbackpromo {	background-image: url(images/cellback_promobody.gif);}
+.cellbackpromobtmextend {	background-repeat: repeat;	background-image: url(images/cellback_btmleftmenu.jpg);}
+.cellbackbtmleftmenu {	background-repeat: repeat;background-image: url(images/cellback_promobody.gif);}
+.whiteline {border-top-width: 1px;	border-right-width: 1px;border-bottom-width: 1px;border-left-width: 1px;
+	border-top-style: solid;border-top-color: #FFFFFF;border-right-color: #FFFFFF;	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;	line-height: 5px;}
+.cellbackhmrightextend {background-image: url(images/cellback_homerightextend.gif);}
+.1pixelline {background-image: url(images/cellback_promobody.gif);line-height: 1px;}
+.cellbackbanner {background-image: url(images/cellback_banner.gif);	background-repeat: repeat;	background-position: left top;}

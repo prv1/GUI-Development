@@ -1,0 +1,10 @@
+Chicago	IL	Tomorrow	80	57	Mostly sunny
+Miami	FL	Tomorrow	87	78	Sunny
+New Orleans	LA	Monday	91	75	Showers
+Atlanta	GA	Tuesday	85	70	Partly cloudy
+Philadelphia	PA	Monday	83	60	Sunny
+Houston	TX	Tuesday	94	77	Mostly sunny
+Las Vegas	NV	Tuesday	95	72	Sunny
+Santa Fe	NM	Tuesday	81	51	Sunny
+New York	NY	Wednesday	76	60	Mostly cloudy
+Los Angeles	CA	Thursday	74	58	Sunny
